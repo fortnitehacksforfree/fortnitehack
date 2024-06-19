@@ -573,7 +573,7 @@ function Fun.Create(title)
                     local UIListLayout = Instance.new("UIListLayout")
                     local TextBox = Instance.new("TextBox")
                     local UICorner = Instance.new("UICorner")
-
+--dropdown
                     textBoxFrame.Name = "textBoxFrame"
                     textBoxFrame.Parent = sectionFrame
                     textBoxFrame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
@@ -941,19 +941,19 @@ function Fun.Create(title)
 
                     dropdownFrame.Name = "dropdownFrame"
                     dropdownFrame.Parent = sectionFrame
-                    dropdownFrame.BackgroundColor3 = Color3.fromRGB(48, 48, 58)
+                    dropdownFrame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
                     dropdownFrame.ClipsDescendants = true
                     dropdownFrame.Position = UDim2.new(0.0354609936, 0, 0.495833337, 0)
                     dropdownFrame.Size = UDim2.new(0, 262, 0, 28)
 
                     dropdownFrameHeader.Name = "dropdownFrameHeader"
                     dropdownFrameHeader.Parent = dropdownFrame
-                    dropdownFrameHeader.BackgroundColor3 = Color3.fromRGB(23,137,145)
+                    dropdownFrameHeader.BackgroundColor3 = Color3.fromRGB(0,0,0)
                     dropdownFrameHeader.Size = UDim2.new(0, 262, 0, 28)
 
                     UICorner.CornerRadius = UDim.new(0, 5)
                     UICorner.Parent = dropdownFrameHeader
-
+--button
                     dropdowninfo.Name = "dropdowninfo"
                     dropdowninfo.Parent = dropdownFrameHeader
                     dropdowninfo.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
@@ -1047,7 +1047,7 @@ function Fun.Create(title)
                             DropYSize = DropYSize + 33
                             optionButton.Name = "optionButton"
                             optionButton.Parent = dropdownButton
-                            optionButton.BackgroundColor3 = Color3.fromRGB(23,137,145)
+                            optionButton.BackgroundColor3 = Color3.fromRGB(0,0,0)
                             optionButton.BorderSizePixel = 0
                             optionButton.Position = UDim2.new(0.0667938963, 0, -0.418119699, 0)
                             optionButton.Size = UDim2.new(0, 251, 0, 28)
